@@ -1,0 +1,51 @@
+<!doctype html>
+<html lang="en">
+    <head>
+        <title>Image Search Abstraction Layer</title>
+        <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css">
+        <script src="https://use.fontawesome.com/0a957f739f.js"></script>
+    </head>
+    <body>
+        <div class="container">
+            <h1 class="header text-center">
+                Image Search <i class="glyphicon glyphicon-picture"></i>
+            </h1>
+            <h4 class="text-center">made possible by:</h4>
+            <a href="https://pixabay.com/"><img class= "img-responsive center-block"src="https://pixabay.com/static/img/public/leaderboard_a.png" alt="Pixabay">
+        </a>
+                <h3>User stories:</h3>
+                <ul>
+                <li>I can get the image URLs, alt text and page urls for a set of images relating to a given search string.<i class="glyphicon glyphicon-check"></i></li>
+                <li>When I visit that shortened URL, it will redirect me to my original link.<i class="glyphicon glyphicon-check"></i></li>
+                </ul>
+            <h3>Example usage (search images):</h3>
+            <code>https://image-search-edwinruizr.c9users.io/api/imagesearch/dogs</code><br>
+            
+            <h3>Example output:</h3>
+            <code>
+                [{"imageURL":"https://pixabay.com/get/e833b20b2ffd1c2ad65a5854e24a439ee075eac818b5194994f1c67fa2eb_640.jpg","altText":"sunset, dog, dogs","pageURL":"https://pixabay.com/en/sunset-dog-dogs-walking-woman-163479/"},{"imageURL":"https://pixabay.com/get/e834b80f28f5043ed95c4518b7484093eb74e0dd04b015499df1c07ea1e8b3_640.jpg","altText":"dogs, carnival, humor","pageURL":"https://pixabay.com/en/dogs-carnival-humor-pet-ernst-1190015/"},...
+            </code>
+            
+            <h3>Example usage (see recent searches):</h3>
+            <code>https://image-search-edwinruizr.c9users.io/api/latest/imagesearch</code><br>
+            
+            <h3>Example output:</h3>
+            <code>
+                [{"term":"dogs","when":"Sun Feb 26 2017 14:06:26 GMT+0000 (UTC)"}]            
+            </code>
+            <p class="text-center"><br>Made by Edwin. You can find me on or contact me through:</p>
+      <ul class="text-center list-inline">
+     <li><a href="https://www.linkedin.com/in/edwin-ruiz-6b631410a" target="_blank"><i class="fa fa-linkedin-square fa-3x"></i></a>
+      </li>
+      <li><a href="https://github.com/edwinruizr" target="_blank"><i class="fa fa-github fa-3x"></i></a>
+      </li>
+      <li><a href="https://codepen.io/edwinruizr/" target="_blank"><i class="fa fa-codepen fa-3x"></i></a>
+      </li>
+      <li><a href="mailto:edwinruizr1992@gmail.com"><i class="fa fa-envelope-o fa-3x"></i></a>
+        </li>
+        <li><a href="https://www.freecodecamp.com/edwinruizr" target="_blank"><i class="fa fa-free-code-camp fa-3x"></i></a>
+      </li>
+      </ul>
+        </div>
+    </body>
+</html>
